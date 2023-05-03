@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=deive-width, initial-scale=1.0" />
+    <title>Responsive portfolio</title>
+
+    <!-- font cnd link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!-- Custom css file link -->
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+
+  <body>
+    <!-- Header section starts  -->
+    <header>
+      <div class="user">
+        <img src="images/pic.jpeg" alt="" />
+        <h3 class="name">Luilson Sousa</h3>
+        <!-- <p class="post">Front end developer</p> -->
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Header section ends  -->
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- home section starts  -->
+    <section class="home" id="home">
+      <h3>Hi There !</h3>
+      <h1>I am <span>Luilson Sousa</span></h1>
+      <p>
+        As a dedicated web developer, I am currently pursuing a Computer Programming and Analysis program at George Brown College, specializing in IT. With a strong proficiency in JavaScript, C#, Linux, SQL queries, HTML, and CSS.
+      </p>
+      <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+    </section>
+    <!-- home section ends  -->
+
+    <!-- about section starts  -->
+    <section class="about" id="about">
+      <h1 class="heading"><span>About</span> me </h1>
+      <div class="row">
+        <div class="info">
+          <h3><span> </span> Luilson Sousa</h3>
+          <h3><span> </span> Front-end developer</h3>
+          <a href="resume.pdf" target="_blank"><button class="btn">
+              Download CV <i class="fas fa-download"></i></button
+          ></a>
+        </div>
+
+        <div class="counter">
+          <div class="box">
+            <span>Skills</span>
+            <h3>&#x2714 JavaScript</h3>
+            <h3>&#x2714 C#</h3>
+            <h3>&#x2714 HTML</h3>
+            <h3>&#x2714 CSS</h3>
+            <h3>&#x2714 Linux</h3>
+            <h3>&#x2714 SQL Queries</h3>
+          </div>
+
+          <div class="box">
+            <span>12+1</span>
+            <h3>Years of experience</h3>
+          </div>
+
+          <div class="box">
+            <span>5</span>
+            <h3>Project completed</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends  -->
+
+    <!-- education section starts  -->
+    <section class="education" id="education">
+        <h1 class="heading"> My <span>education</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2012</span>
+                <h3>Business Administration Degree</h3>
+                <br>
+                <p>&#x2714  People management fundamentals</p>
+                <p>&#x2714  Financial management</p>
+                <p>&#x2714  Analysis of financial statements</p>
+                <p>&#x2714  Decision-making processes</p>
+                <p>&#x2714  Information system</p>
+                <p>&#x2714  Marketing administration</p>
+                <p>&#x2714  Supply management</p>
+                <p>&#x2714  Statistics</p>
+                <p>&#x2714  Leadership skills</p>
+                <p>&#x2714  Techniques of rational processes</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2022</span>
+                <h3>Computer Programming and Analysis</h3>
+                <br>
+                <p>&#x2714  Introduction To Web Development</p>
+                <p>&#x2714  Fundamentals of Computing Logic</p>
+                <p>&#x2714  Mathematics for Computer Technology</p>
+                <p>&#x2714  IT Essentials</p>
+                <p>&#x2714  Introduction To Full-Stack Development</p>
+                <p>&#x2714  Object-Oriented Programming</p>
+                <p>&#x2714  Database Management </p>
+                <p>&#x2714  Linux Essentials</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- education section ends  -->
+
+    <!-- portfolio section starts  -->
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading"> My <span>portfolio</span> </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/project1.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/project2.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/project3.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/project4.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/project5.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/project6.jpg" alt="">
+            </div>
+        </div>
+    </section>
+        <!-- portfolio section ends  -->
+
+        <!-- contact section starts  -->
+        <section class="contact" id="contact">
+            <h1 class="heading"> <span>Contact</span> me </h1>
+            <div class="row">
+            <div class="content">
+                <h3 class="title">contact info</h3>
+
+                <div class="info">
+                    <h3> <i class="fas fa-envelope"></i> luilsonms@hotmail.com </h3>
+                    <h3> <i class="fas fa-phone"></i> 1-647-860-1870 </h3>
+                    <h3> <i class="fas fa-map-marker-alt"></i> Toronto, Canada </h3>
+                    <h3> <i class="fas fa-brands fa-linkedin"></i> 
+                    <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/luilson-sousa">Linkedin</a> </h3>
+                </div>
+
+            </div>
+
+            <form id="contact-form" class="form" action="">
+                <input type="hidden" name="contact_number">
+                <input type="text" placeholder="name" class="box" name="user_name">
+                <input type="email" placeholder="email" class="box" name="user_email">
+                <input type="text" placeholder="Project" class="box" name="user_project">
+                <textarea cols="30" rows="10" class="box message" placeholder="message" name="message"></textarea>
+                <button type="submit" class="btn" value="Send"> send <i class="fas fa-paper-plane"></i> </button>
+
+            </form>
+
+            </div>
+        </section>
+        <!-- contact section ends  -->
+
+        <!-- scroll top button  -->
+        <a href="#home" class="top">
+            <img src="images/scroll-top-img.png" alt="">
+        </a>
+
+
+
+    <!-- jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Custom js file  -->
+    <script src="script.js"></script>
+  </body>
+</html>
