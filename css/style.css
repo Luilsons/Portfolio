@@ -93,7 +93,6 @@ header{
 }
 
 header .user img{
-  display: flex;
   align-items: center;
   justify-content: center;
   height: 17rem;
@@ -394,21 +393,33 @@ header .navbar ul li a:hover{
 }
 
 @media (max-width:991px){
-
-  header{
-    left: -120px;
-  }
-
   #menu{
     display: block;
   }
 
   header.toggle{
-    left:0%;
+    display: none;
   }
 
   body{
     padding: 0;
+  }
+
+  .user-img {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .7rem solid var(--yellow);
+    align-self: center;
+  }
+
+  .contact .row {
+    flex-direction: column;
   }
 }
 
@@ -444,4 +455,8 @@ header .navbar ul li a:hover{
   .contact .row form{
     margin: 3rem 0;
   }
+}
+
+.user-img {
+  display: none;
 }
