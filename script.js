@@ -1,5 +1,8 @@
 $(document).ready(function(){
-     
+     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+ // some code..
+  $('header').addClass('toggle');
+}
     $('#menu').click(function(){
         $(this).toggleClass('fa-times');
         $('header').toggleClass('toggle');
@@ -19,7 +22,7 @@ $(document).ready(function(){
     // Scrolling 
     $('a[href*="#"]').on('click',function(e){
         e.preventDefault();
-
+        $('header').addClass('toggle');
         $('html, body').animate({
             scrollTop : $($(this).attr('href')).offset().top,
 
