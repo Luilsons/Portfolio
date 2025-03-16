@@ -1,0 +1,134 @@
+{
+  "capstone": {
+    "title": "Convert Master - Capstone Project",
+    "bio": "Convert Master is an advanced mobile application designed to simplify currency and unit conversions into Canadian values. This project aims to enhance user experience by providing real-time exchange rates, seamless unit conversions, and a user-friendly interface. Developed as part of the Capstone Project at George Brown College, Convert Master integrates modern development tools and APIs to ensure accuracy and efficiency.",
+    "img_path": "assets/project-1.jpg",
+    "core_tech": [
+      "Node.js",
+      "Express.js",
+      "MongoDB & Mongoose",
+      "GraphQL with Apollo Server",
+      "Postman",
+      "Dotenv"
+    ],
+    "github_url": "https://github.com/Luilsons/Capstone_Projectll_T107_Convert_Master/tree/main",
+    "expanded_view": {
+      "project_vision": "The vision of Convert Master is to create a reliable and intuitive mobile application that assists users in converting foreign currency and measurement units into their Canadian equivalents. By integrating real-time exchange rate data and automated conversion algorithms, the project aims to eliminate manual calculations and provide instant results.",
+      "business_requirements": [
+        "User Authentication",
+        "Currency Conversion",
+        "Unit Conversion",
+        "Profile Management",
+        "Error Handling",
+        "User-Friendly Interface",
+        "Data Storage"
+      ],
+      "project_plan": {
+        "start_date": "September 12, 2024",
+        "end_date": "March 28, 2025"
+      },
+      "development_phases": [
+        "Research and initial implementation (Sept - Nov 2024)",
+        "Backend and API integration (Dec 2024 - Jan 2025)",
+        "Frontend development and testing (Feb 2025)",
+        "Final integration and deployment (March 2025)"
+      ],
+      "technology_stack": {
+        "frontend": "Java/Kotlin (Android)",
+        "backend": "Node.js, Firebase Authentication",
+        "database": "SQLite",
+        "api": "Free Currency API, Retrofit"
+      },
+      "system_architecture": [
+        "User authentication using Firebase",
+        "API calls through Retrofit for currency exchange rates",
+        "Local data storage using SQLite",
+        "Conversion algorithms for unit conversions"
+      ],
+      "wireframes": [
+        "Login & Registration Pages",
+        "Home Screen with Conversion Options",
+        "Conversion Page with Dropdown Selection",
+        "User Profile Page",
+        "Error Handling and Alerts"
+      ],
+      "status_reports": {
+        "progress_reports": [
+          "Sprint updates submitted bi-weekly",
+          "API integration tested successfully",
+          "Conversion page updated with dropdowns for currency and unit selection"
+        ],
+        "pending_tasks": [
+          "Finalize and test conversion algorithms",
+          "Debug system for seamless performance",
+          "Improve UI/UX for better user experience"
+        ]
+      },
+      "deployment_plan": [
+        "Conduct final testing on Android devices",
+        "Implement security measures for user data",
+        "Prepare documentation for app usage",
+        "Submit to Google Play Store for release"
+      ],
+      "testing_strategy": [
+        "Unit testing for currency and unit conversions",
+        "Functional testing for user authentication",
+        "API testing for real-time exchange rates",
+        "Performance testing for app responsiveness"
+      ]
+    }
+  },
+  "project-2": {
+    "title": "Employee Management API",
+    "bio": "This project is a GraphQL API for managing employee records in a MongoDB database, enabling users to add, update, delete, and retrieve employees.",
+    "img_path": "assets/project-2.jpg",
+    "core_tech": [
+      "Node.js",
+      "Express.js",
+      "MongoDB & Mongoose",
+      "GraphQL with Apollo Server",
+      "Postman",
+      "Dotenv"
+    ],
+    "github_url": "https://github.com/Luilsons/COMP3133_101275514_Assignment1"
+  },
+  "project-3": {
+    "title": "Microservices API",
+    "bio": "A Room Booking and Event Management System for George Brown College with advanced microservices, secure APIs, and resilience features.",
+    "img_path": "assets/project-3.jpg",
+    "core_tech": [
+      "Keycloak",
+      "Spring Cloud",
+      "Resilience4J",
+      "Kafka",
+      "Grafana Stack",
+      "Swagger"
+    ],
+    "github_url": "https://github.com/Luilsons/COMP3095-Assignment2-Group3/tree/main"
+  },
+  "project-4": {
+    "title": "Full Stack React RESTful API",
+    "bio": "A RESTful API for employee management with authentication, CRUD operations, ReactJS frontend, and Docker backend.",
+    "img_path": "assets/project-4.jpg",
+    "core_tech": [
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "Axios",
+      "Docker"
+    ],
+    "github_url": "https://github.com/Luilsons/101275514_comp3123_assignment2_reactjs/tree/main"
+  },
+  "project-5": {
+    "title": "React Weather App",
+    "bio": "A simple weather app that shows real-time conditions using the OpenWeatherMap API.",
+    "img_path": "assets/project-5.jpg",
+    "core_tech": [
+      "OpenWeatherMap API",
+      "ReactJS",
+      "HTML",
+      "CSS"
+    ],
+    "github_url": "https://github.com/Luilsons/101275514_comp3123_labtest2"
+  }
+}
